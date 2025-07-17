@@ -7,13 +7,13 @@ Datawhale开源教程笔记 &amp; 我对Embodied AI体系的建立
 > [https://github.com/datawhalechina/ai-hardware-robotics/blob/main/README.md](https://github.com/datawhalechina/ai-hardware-robotics/blob/main/README.md)
 
 ### 说明：
-- notes_D1文件夹：我对理论知识的理解
+-  [notes_D1](notes_D1) ：我对理论知识的理解
 	- 这些是我学习初期的想法，**很可能有误**
 	- 我希望在这一部分为可以用极为精简的语言描述清楚功能/原理/实现方式等等
-- notes_D2文件夹：理论知识的记录
+-  [notes_D2](notes_D2) ：理论知识的记录
 	- 这一部分可以说是项目相关理论知识的一个库吧
 	- 这一部分我只是把相关理论知识过了一遍，旨**尽可能快**得知道**有这么一个东西及其作用**，关键词加粗或高亮
-- pdf_notes_D1文件夹：由于格式转化问题（Obsidian是“双等号“标记高亮但GitHub好像不是...格式问题我先不管了）我把note_D1转成pdf，或许会更清晰些。
+-  [pdf_notes_D1](pdf_notes_D1) ：由于格式转化问题（Obsidian是“双等号“标记高亮但GitHub好像不是...格式问题我先不管了）我把note_D1转成pdf，或许会更清晰些。
 
 ### 整体项目框架/基础技术路线：
 

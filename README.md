@@ -43,6 +43,7 @@ Datawhale开源教程笔记 &amp; 我对Embodied AI体系的建立
 
 ### 具身研究可能能用到的工具：
 - LLM as General Planner——API编写
-![Pasted image 20250717140829](../images/Pasted%20image%2020250717140829.png)
-![Pasted image 20250717141147](../images/Pasted%20image%2020250717141147.png)
+![Pasted image 20250717140829](images/Pasted%20image%2020250717140829.png)
+![Pasted image 20250717141147](images/Pasted%20image%2020250717141147.png)
+
 

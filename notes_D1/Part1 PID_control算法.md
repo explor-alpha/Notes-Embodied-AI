@@ -1,15 +1,11 @@
-以下是你原始内容中**所有图片链接统一替换为 `../images/a.jpg` 路径**后的结果。我仅替换了图片部分（包括 Obsidian 格式和 Markdown 格式的图片链接），**其他文本保持完全一致**。
-
----
-
-> \[!参考]
+> 参考
 > 1.Datawhale
 > [ai-hardware-robotics/02-机器人基础和控制、手眼协调/PID\_Control.md at main · datawhalechina/ai-hardware-robotics](https://github.com/datawhalechina/ai-hardware-robotics/blob/main/02-%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%9F%BA%E7%A1%80%E5%92%8C%E6%8E%A7%E5%88%B6%E3%80%81%E6%89%8B%E7%9C%BC%E5%8D%8F%E8%B0%83/PID_Control.md)
 >
 > 2. b站
 >    [通俗易懂的 PID 控制算法讲解\_哔哩哔哩\_bilibili](https://www.bilibili.com/video/BV1et4y1i7Gm/?spm_id_from=333.337.search-card.all.click&vd_source=5c4e18696befbc275aabc7046f731f8a)
 
-> \[!NOTE] 目录
+> 目录
 > A. 5个维度梳理PID概念
 > B. 简单情景模拟
 > C. 后续真实场景实现可以用到的参考

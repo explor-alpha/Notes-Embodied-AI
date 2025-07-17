@@ -20,7 +20,7 @@ Datawhale开源教程笔记 &amp; 我对Embodied AI体系的建立
 **梳理成图：**
 
 **关键词：**
-- PID——根据传感器反馈的物理量（如位移）来控制效应器（如升力）以使被控制物的（位移）稳定趋于期望值（基于规则；稳定）
+- PID——根据传感器反馈的物理量（如位移）来控制效应器（如升力）以使被控制物的（位移）稳定趋于期望值。——（基于规则；稳定）
 - 手眼标定；
 - vla；
 - ros；
@@ -43,5 +43,6 @@ Datawhale开源教程笔记 &amp; 我对Embodied AI体系的建立
 
 ### 具身研究可能能用到的工具：
 - LLM as General Planner——API编写
-![[Pasted image 20250717140829.png]]
-![[Pasted image 20250717141147.png]]
+![Pasted image 20250717140829](../images/Pasted%20image%2020250717140829.png)
+![Pasted image 20250717141147](../images/Pasted%20image%2020250717141147.png)
+

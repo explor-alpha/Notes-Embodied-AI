@@ -22,7 +22,9 @@ Datawhale开源教程笔记 &amp; 我对Embodied AI体系的建立
 
 **梳理成图：**
 
-
+> **暂时还不完善，可能有部分部分不准确，欢迎指出**
+>
+> 
 <p align="center">
   <img src="images/ba4a5c1611ece3c20c24930cb74de26.png" alt="Pasted image 2" width="90%" />
 </p>
@@ -40,6 +42,7 @@ Datawhale开源教程笔记 &amp; 我对Embodied AI体系的建立
 - 手眼标定——传感系统（视觉）；
 - RDK X5开发板——控制系统（集成上位机和下位机功能）
 - PID——控制系统-下位机——根据传感器反馈的物理量（如位移）来控制效应器（如升力）以使被控制物的（位移）稳定趋于期望值（基于规则；稳定）
+
 
 - vla；
 - 深度估计与3D重建

@@ -18,17 +18,32 @@ Datawhale开源教程笔记 &amp; 我对Embodied AI体系的建立
 ---
 ---
 
-### 整体项目框架/基础技术路线：
+### 整体项目框架/基础技术路线/机器人全栈/数据流：
 
 **梳理成图：**
 
+
+<p align="center">
+  <img src="images/Pasted%20image%20ba4a5c1611ece3c20c24930cb74de26.png" alt="Pasted image 2" width="90%" />
+</p>
+
+---
+---
+
+
+<p align="center">
+  <img src="images/Pasted%20image%201567bf18baac63d3bcab328a559930f.png" alt="Pasted image 2" width="50%" />
+</p>
+
+
 **关键词：**
-- PID——根据传感器反馈的物理量（如位移）来控制效应器（如升力）以使被控制物的（位移）稳定趋于期望值。——（基于规则；稳定）
-- 手眼标定；
+- 手眼标定——传感系统（视觉）；
+- RDK X5开发板——控制系统（集成上位机和下位机功能）
+- PID——控制系统-下位机——根据传感器反馈的物理量（如位移）来控制效应器（如升力）以使被控制物的（位移）稳定趋于期望值（基于规则；稳定）
+
 - vla；
-- ros；
+- 深度估计与3D重建
 - sam
-- 仿真环境
 
 **串联：**
 

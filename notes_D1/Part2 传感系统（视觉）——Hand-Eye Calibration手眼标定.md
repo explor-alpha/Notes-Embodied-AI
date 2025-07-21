@@ -1,13 +1,13 @@
 
 
-> [!NOTE] 相关理论：
+> 相关理论：
 > A. 坐标系表示&转化矩阵
 > - [[PS&理论补充(Part2)#A1. 坐标系表示：]]
 > - [[PS&理论补充(Part2)#A2. 坐标系转化——齐次变换矩阵 $T i_j​$：]]
 > - [[PS&理论补充(Part2)#A3. relationship：]]
 
 
-> [!NOTE] 功能：
+> 功能：
 > - 局限性/假设：仅适合静态刚性的系统，即必须**机器人基座位置固定**或**相机位置固定**
 > - **==Step1. （标定板位置固定通过多次测量）高精度校准、得到相机看到的-机器人坐标系的固定转换关系==**（感知系统：target坐标系——>机器人系统：机器人末端/基座坐标系），即把“相机看到什么”转化为“机器人知道在哪”
 > 	- 相机视觉（==**相机视角里target的位置：即target坐标系——图像坐标系：像素（u, v）**==）：传感器看到的，已知
@@ -20,7 +20,9 @@
 
 ### Step2：target在机器人系统中位置的确定
 
-![[Pasted image 20250721205304.png]]
+<p align="center">
+  <img src="../images/Pasted%20image%2020250721205304.png" alt="Pasted image 3" width="66%" />
+</p>
 
 > 如图，有3个部分：
 > - 机器人系统（End-base转换关系可以通过机器人系统直接获得，故可视为一个部分）
@@ -36,8 +38,14 @@
 > 需要注意的是：只有固定值才能通过多次测量（多个方程）求解校准，故我们需要**找到==固定==的转换关系——$T^e_c​$（Eye In Hand）或$T^b_c​$（Eye to Hand）**
 
 #### $T^e_c​$（Eye In Hand）：相机==固定==在机械臂末端，标定板位置==固定==
-![[Pasted image 20250721211558.png]]
+<p align="center">
+  <img src="../images/Pasted%20image%2020250721211558.png" alt="Pasted image 3" width="66%" />
+</p>
+
 
 #### $T^b_c​$（Eye to Hand）：相机==固定==，标定板==固定==在机械臂末端
-![[Pasted image 20250721211610.png]]
+<p align="center">
+  <img src="../images/Pasted%20image%2020250721211610.png" alt="Pasted image 3" width="66%" />
+</p>
+
 

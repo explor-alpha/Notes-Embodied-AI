@@ -18,13 +18,13 @@ Datawhale开源教程笔记 &amp; 我对Embodied AI体系的建立
 ---
 ---
 
-### 整体项目框架/基础技术路线/机器人全栈/数据流：
+### 框架/架构梳理
 
 **梳理成图：**
 
 > **暂时还不完善，可能有部分部分不准确，欢迎指出**
 >
-> 
+> 机器人架构梳理/数据流
 <p align="center">
   <img src="images/ba4a5c1611ece3c20c24930cb74de26.png" alt="Pasted image 2" width="90%" />
 </p>
@@ -32,12 +32,16 @@ Datawhale开源教程笔记 &amp; 我对Embodied AI体系的建立
 ---
 ---
 
-
+> 分布式开发
 <p align="center">
   <img src="images/1567bf18baac63d3bcab328a559930f.png" alt="Pasted image 2" width="50%" />
 </p>
 
+---
+---
+> 整体项目框架/基础技术路线
 
+---
 **关键词：**
 - 手眼标定——传感系统（视觉）；
 - RDK X5开发板——控制系统（集成上位机和下位机功能）

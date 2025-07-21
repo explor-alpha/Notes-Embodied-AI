@@ -24,7 +24,7 @@ Datawhale开源教程笔记 &amp; 我对Embodied AI体系的建立
 
 
 <p align="center">
-  <img src="images/Pasted%20image%20ba4a5c1611ece3c20c24930cb74de26.png" alt="Pasted image 2" width="90%" />
+  <img src="images/ba4a5c1611ece3c20c24930cb74de26.png" alt="Pasted image 2" width="90%" />
 </p>
 
 ---
@@ -32,7 +32,7 @@ Datawhale开源教程笔记 &amp; 我对Embodied AI体系的建立
 
 
 <p align="center">
-  <img src="images/Pasted%20image%201567bf18baac63d3bcab328a559930f.png" alt="Pasted image 2" width="50%" />
+  <img src="images/1567bf18baac63d3bcab328a559930f.png" alt="Pasted image 2" width="50%" />
 </p>
 
 

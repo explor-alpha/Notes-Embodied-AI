@@ -1,14 +1,14 @@
 # Notes-Embodied-AI
-Datawhale开源教程笔记 &amp; 我对Embodied AI体系的建立
+Datawhale开源教程笔记 &amp; Embodied AI体系的建立 &amp; 2025.7.15入门Embodied AI，故有些理解可能不太准确，欢迎issue &amp; 持续更新中
 
-### 参考
-> [!NOTE] 参考
-> 1. Datawhale项目链接
+### 资源：
+> 主要参考资料：
+> 1. 整体框架的理解，简单demo的实现——Datawhale开源组织
 > [https://github.com/datawhalechina/ai-hardware-robotics/blob/main/README.md](https://github.com/datawhalechina/ai-hardware-robotics/blob/main/README.md)
-
-
-> 3. Lumina具身智能社区
-> [https://github.com/TianxingChen/Embodied-AI-Guide/blob/main/README.md](https://github.com/TianxingChen/Embodied-AI-Guide/blob/main/README.md)
+> 2. 整体框架的理解，较为完善的知识库——Lumina具身智能社区
+> https://github.com/TianxingChen/Embodied-AI-Guide/blob/main/README.md
+> 3. 更多是应用落地层面——宇树具身智能社群
+> [https://www.unifolm.com](https://www.unifolm.com)
 
 
 ### 说明：
@@ -25,52 +25,52 @@ Datawhale开源教程笔记 &amp; 我对Embodied AI体系的建立
 
 # 1. Embodied AI知识体系(宏观理解)：
 
-### 1.1 Embodied AI整体框架
+### 1.1 Embodied AI整体框架/架构
 
-> **暂时还不完善，可能有部分部分不准确，欢迎指出**
+#### “具身”？
 
+> 这部分或许属于嵌入式-ai机器人领域？——主要解决在一个**资源受限但要求实时性强的环境中**，**完成智能任务并能在物理世界中执行动作**（是具身智能的“具身”？）
 
-> 机器人架构梳理/数据流
 <p align="center">
-  <img src="images/ba4a5c1611ece3c20c24930cb74de26.png" alt="Pasted image 2" width="90%" />
+  <img src="images/9c822242d9456be7ed438dcbb208f83.png" alt="Image 1" width="90%" />
+</p>
+<p align="center">
+  <img src="images/fc3db7026f054b3befff15f4292b0d1.png" alt="Image 2" width="90%" />
 </p>
 
 
-> 分布式开发
-<p align="center">
-  <img src="images/1567bf18baac63d3bcab328a559930f.png" alt="Pasted image 2" width="50%" />
-</p>
+#### “智能”——VLA等几个方法范式——对应上述框架中的上位机模块？
 
 
-### 1.2. Embodied AI任务落地方式（建立简单任务如何落地的大概整体框架）：
-
-> 五种范式在具身智能任务落地的对比（“红杯子进微波炉”）
-
-
-| 范式       | 感知       | 理解              | 决策方式            | 控制方式          | 泛化能力 | 动态适应 | 训练成本       |
-| -------- | -------- | --------------- | --------------- | ------------- | ---- | ---- | ---------- |
-| Pipeline | 模块化感知    | 显式任务分解          | 路径规划+动作图谱       | PID / MoveIt  | 中    | 弱    | 中          |
-| 模仿学习     | 端到端视觉+状态 | 无语言理解           | 模仿轨迹            | PID           | 弱~中  | 弱    | 低~中        |
-| 强化学习     | 视觉+状态    | 奖励建模            | RL策略学习          | RL输出 + PID    | 中    | ✅ 强  | 🚨 高       |
-| VLA      | 多模态融合    | Transformer语言理解 | Transformer动作预测 | PID + 动作接口    | ✅ 强  | 中    | 🚨🚨 很高    |
-| VLA + RL | 多模态融合    | 语言分解 + 任务选择     | RL执行子策略         | PID + RL策略控制器 | ✅ 强  | ✅ 强  | 🚨🚨🚨 非常高 |
-
+---
+---
 
 # 2. (细致化)组件-关键词：
-
 
 - 手眼标定——视觉感知和下位机控制模块——校准高精度标定-“相机看到的坐标系”&“机器人坐标系”的固定转换关系——如果是完全端到端 joint-control（例如 image → joint angle），有时不显式使用；
 
 
 - RDK X5开发板——控制系统-硬件基础（集成上位机和下位机功能）
-- 机器人学习（VLA，RL，模仿学习，pipline模块化控制等等范式）——控制系统-上位机（高层/决策层）——“决定做什么”
+- 机器人学习的几个方法范式（VLA，RL，模仿学习，pipline模块化控制等等范式）——控制系统-上位机（高层/决策层）——“决定做什么”
 - PID——控制系统-下位机（控制层）——“控制怎么做”；根据传感器反馈的物理量（如位移）来控制效应器（如升力）以使被控制物的（位移）稳定趋于期望值——基于规则；稳定
+
 
 - 深度估计与3D重建？
 - sam？
 
 
-# 3. PS&疑问：
+---
+---
+# 3. 如何实现简单demo落地：
+
+
+---
+---
+# 4. 行业动态和研究前沿
+
+---
+---
+# 5. PS&疑问：
 
 1. notes_D1文件夹中内容的理解可能有偏差，需要后续实践阶段证明
 
@@ -84,7 +84,7 @@ Datawhale开源教程笔记 &amp; 我对Embodied AI体系的建立
 ---
 ---
 
-# 4. 具身研究可能能用到的工具：
+# 6. 具身研究可能能用到的工具：
 - LLM as General Planner——API编写
 
 <p align="center">

@@ -12,13 +12,29 @@ Datawhale开源教程笔记 &amp; Embodied AI体系的建立 &amp; 2025.7.15入�
 
 
 ### 说明：
--  [notes_D1](notes_D1) ：我对理论知识的理解
-	- 这些是我学习初期的想法，**很可能有误**
-	- 我希望在这一部分为可以用极为精简的语言描述清楚功能/原理/实现方式等等
--  [notes_D2](notes_D2) ：理论知识的记录
-	- 这一部分可以说是项目相关理论知识的一个库吧
-	- 这一部分我只是把相关理论知识过了一遍，旨**尽可能快**得知道**有这么一个东西及其作用**，关键词加粗或高亮
--  [pdf_notes_D1](pdf_notes_D1) ：由于格式转化问题（Obsidian是“双等号“标记高亮但GitHub好像不是...格式问题我先不管了）我把note_D1转成pdf，或许会更清晰些。
+- 1_README.md：整体体系的建立&引导性说明
+	- 关键词/组件-功能
+	- 串联关建词；建立宏观”体系“（此时不追求精确和完美，更关注完整性，对整体有大致理解就可以结束了）
+	- 实践落地&论文阅读（此时可以对上述”体系“进行验证和深入理解）==（doing）==
+	- 了解行业发展动态&主流范式（时刻记住我的最终导向是工业界，如何实现功能落地）
+	- 补充一些工具
+- 1_实践文件夹：
+	- 论文阅读——先是发展综述，再是范式，再是功能、创新点
+		- VLA范式——VIMA==（todo）==
+	- 对”2_notes_D1文件夹“的实践——”独立模块demo“
+		- Isaac Sim实现仿真环境下的机械臂控制==（todo）==
+		- RL，PID等等==（todo）==
+		- Embodied AI实现的完整过程==（todo）==
+
+
+- 2_notes_D1文件夹：理论知识的理解
+	- 旨在尽可能：清晰的思路；精简地表达功能/原理/实现方式
+- 2_notes_D1_pdf文件夹：notes_D1的pdf（由于部分高亮的等格式GitHub显示不出）
+
+
+- 3_notes_D2文件夹：相关理论知识的“库”和储存
+	- 这一部分我只是把相关理论知识过了一遍
+	- 旨在**尽可能快**的知道**有这么一个东西及其作用**，关键词加粗或高亮
 
 ---
 ---
@@ -64,12 +80,29 @@ Datawhale开源教程笔记 &amp; Embodied AI体系的建立 &amp; 2025.7.15入�
 
 ---
 ---
+
 # 3. 如何实现简单demo落地：
 
 
 ---
 ---
+
 # 4. 行业动态和研究前沿
+
+
+---
+---
+
+# 5. 具身研究可能能用到的工具：
+- LLM as General Planner——API编写
+
+<p align="center">
+  <img src="images/Pasted%20image%2020250717140829.png" alt="Pasted image 1" width="50%" />
+</p>
+
+<p align="center">
+  <img src="images/Pasted%20image%2020250717141147.png" alt="Pasted image 2" width="50%" />
+</p>
 
 ---
 ---
@@ -83,20 +116,6 @@ Datawhale开源教程笔记 &amp; Embodied AI体系的建立 &amp; 2025.7.15入�
 > - **Baseline**：在训练自动平衡的智能体时，先用 PID 保证不摔倒，再让 RL 学习超越 PID 性能
 > - 混合控制：深度学习辅助 PID-用深度网络预测扰动或系统响应，再由 PID 做**补偿**
 > - 在不确定性强的环境中作为“鲁棒 fallback”机制：PID 是最可靠的“安全兜底机制”，始终保持最基本的控制**稳定**性
-
----
----
-
-# 6. 具身研究可能能用到的工具：
-- LLM as General Planner——API编写
-
-<p align="center">
-  <img src="images/Pasted%20image%2020250717140829.png" alt="Pasted image 1" width="50%" />
-</p>
-
-<p align="center">
-  <img src="images/Pasted%20image%2020250717141147.png" alt="Pasted image 2" width="50%" />
-</p>
 
 
 

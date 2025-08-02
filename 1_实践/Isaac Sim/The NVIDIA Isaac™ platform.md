@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/Pasted image 20250803032252.png" alt="Image 2" width="90%" />
+  <img src="../images/Pasted image 20250803032252.png" alt="Image 2" width="90%" />
 </p>
 
 1. 腾讯云实例创建-The NVIDIA Isaac™ platform

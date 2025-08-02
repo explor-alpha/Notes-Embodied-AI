@@ -83,6 +83,10 @@ Datawhale开源教程笔记 &amp; Embodied AI体系的建立 &amp; 2025.7.15入�
 
 # 3. 如何实现简单demo落地：
 
+<p align="center">
+  <img src="images/Pasted image 20250803031945.png" alt="Image 2" width="90%" />
+</p>
+
 
 ---
 ---

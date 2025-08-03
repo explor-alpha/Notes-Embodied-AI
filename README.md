@@ -9,6 +9,11 @@ Datawhale开源教程笔记 &amp; Embodied AI体系的建立 &amp; 2025.7.15入�
 > https://github.com/TianxingChen/Embodied-AI-Guide/blob/main/README.md
 > 3. 更多是应用落地层面——宇树具身智能社群
 > [https://www.unifolm.com](https://www.unifolm.com)
+> 4. NVIDIA Isaac Sim
+> - [腾讯云-IsaacSim 4.5(1)-环境配置](https://mp.weixin.qq.com/s/Cknba3d9sLJZjEgZCna_zg)
+> - [腾讯云-IsaacSim 4.5(2)-导入与模拟LeRobot手臂](https://mp.weixin.qq.com/s/Pr9_C29tLWhM03dVjkdcHQ)
+> - [腾讯云-Sim/LeRobot机械臂(视频)](https://cloud.tencent.com/developer/video/83311)
+> - [Sim环境下已经安装ROS2但ROS 2 OmniGraphs不可选择问题](https://cloud.tencent.com/developer/video/83321)
 
 
 ### 说明：

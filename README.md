@@ -27,9 +27,10 @@ Datawhale开源教程笔记 &amp; Embodied AI体系的建立 &amp; 2025.7.15入�
 	- 论文阅读——先是发展综述，再是范式，再是功能、创新点
 		- VLA范式——VIMA==（todo）==
 	- 对”2_notes_D1文件夹“的实践——”独立模块demo“
-		- Isaac Sim实现仿真环境下的机械臂控制==（todo）==
-		- RL，PID等等==（todo）==
-		- Embodied AI实现的完整过程==（todo）==
+		- 手眼标定、PID等等==（todo）==
+	- NVIDIA Isaac 机器人平台生态
+		- Isaac Sim实现仿真环境下的机械臂控制
+		- Isaac训练RL==（todo）==
 
 
 - 2_notes_D1文件夹：理论知识的理解
